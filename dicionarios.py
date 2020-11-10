@@ -2,14 +2,14 @@ pessoas = [
     {
         'id': 0,
         'cpf': '29870787060',
-        'nome': 'Edmar da Silva Purcina',
+        'nome': 'Edmar Purcina',
         'telefone': '987654321',
         'endereco': 'Catalost',
         'bens': 'sim'
     },
     {
         'id': 1,
-        'nome': 'Lucia Antonia',
+        'nome': 'Lucia Pessoa',
         'cpf': '29870787061',
         'telefone': '999999999',
         'endereco': 'catalost',
@@ -57,10 +57,7 @@ empresas = [
         'situacao cadastral': 'Ativa',
         'capital social': '20000,00',
         'porte da empresa': 'Micro',
-        'proprietarios': [
-            {'cpf': '29870787061'},
-            {'cnpj': '06586126000174'}
-        ]
+        'proprietarios': ['29870787061', '06586126000174']
 
     },
     {
@@ -73,9 +70,7 @@ empresas = [
         'situacao cadastral': 'Ativa',
         'capital social': '10000,00',
         'porte da empresa': 'Micro',
-        'proprietarios': [
-            {'cpf': '29870787060' }
-        ]
+        'proprietarios': ['29870787060']
 
     },
 ]
